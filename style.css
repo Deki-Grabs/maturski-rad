@@ -1,0 +1,10 @@
+body{
+
+}
+
+main{
+    height: 100vh;
+    background-image: url("Images/spacebg2.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+}
