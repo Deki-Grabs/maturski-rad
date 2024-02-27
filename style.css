@@ -87,7 +87,7 @@ main{
     background-size: cover;
 }
 
-.sun-page{
+.planets-page{
     height: 100vh;
     background-color: var(--color-text);
 }
