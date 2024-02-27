@@ -88,6 +88,34 @@ main{
 }
 
 .planets-page{
-    height: 100vh;
     background-color: var(--color-text);
+}
+
+.planets-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.planets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.planets-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-img{
+    width: 100%;
+}
+
+.venera .planet-img{
+    width: 40%;
 }
