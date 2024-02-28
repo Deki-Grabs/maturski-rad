@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -9,7 +12,6 @@ html {
 
 :root{
     font-size: 16px;
-    font-family: 'Open Sans';
     --color-text: #f5f5f5;
     --color-navGray : #141010;
 }
@@ -85,6 +87,13 @@ main{
     background-image: url("Images/svemir.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--color-text);
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.landing-page > h1{
+    font-size: 4rem;
 }
 
 .planets-page{
@@ -116,6 +125,6 @@ main{
     width: 100%;
 }
 
-.venera .planet-img{
+.venus .planet-img{
     width: 40%;
 }
