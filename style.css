@@ -29,7 +29,6 @@ body::-webkit-scrollbar-thumb{
 }
 
 main{
-
 }
 
 .navbar{
@@ -120,7 +119,10 @@ main{
 .planets-container{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .planets{
@@ -130,6 +132,10 @@ main{
     align-items: center;
     height: 100vh;
     width: 100%;
+
+
+    scroll-snap-align: start;
+    padding: 100px 0;
 }
 
 .planets-link{
@@ -145,3 +151,4 @@ main{
 .venus .planet-img{
     width: 40%;
 }
+
