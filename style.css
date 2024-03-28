@@ -79,6 +79,17 @@ body::-webkit-scrollbar-thumb{
     width: 90%;
 }
 
+main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 .landing-page{
     height: 100vh;
     background-image: url("Images/svemir.jpg");
@@ -89,6 +100,7 @@ body::-webkit-scrollbar-thumb{
     place-items: center;
     align-items: center;
 }
+
 .landing-page > h1{
     font-size: 4rem;
 }
@@ -117,10 +129,6 @@ body::-webkit-scrollbar-thumb{
 .planets-container{
     display: flex;
     flex-direction: column;
-
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
 }
 
 .planets{
@@ -132,7 +140,6 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
 
 
-    scroll-snap-align: start;
     padding: 150px 0;
 }
 
