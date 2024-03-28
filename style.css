@@ -14,7 +14,7 @@ html {
     font-size: 16px;
     --color-text: #f5f5f5;
     --color-navGray : #141010;
-    --color-planetsBg : #312e2e;
+    --color-planetsBg : #110b0b;
 }
 
 body::-webkit-scrollbar{
@@ -126,11 +126,6 @@ section{
     background-color: var(--color-planetsBg);
 }
 
-.planets-container{
-    display: flex;
-    flex-direction: column;
-}
-
 .planets{
     display: flex;
     flex-direction: column;
@@ -138,9 +133,9 @@ section{
     align-items: center;
     height: 100vh;
     width: 100%;
-
-
     padding: 150px 0;
+    background-color: var(--color-planetsBg);
+    color: var(--color-text);
 }
 
 .planets-link{
