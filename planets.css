@@ -7,14 +7,15 @@
 
 :root{
     --color-text: #f5f5f5;
-    --color-planetsBg : #312e2e;
+    --color-planetsBg : #110b0b;
 }
 
 section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: var(--color-planetsBg);
+    color: var(--color-text);
     height: 100vh;
 }
 
